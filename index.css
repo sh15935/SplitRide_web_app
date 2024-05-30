@@ -1,0 +1,83 @@
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-silver);
+  width: 746.8px;
+  height: 84.3px;
+}
+.log-in {
+  position: absolute;
+  top: 14.3px;
+  left: 234.7px;
+  display: inline-block;
+  font-weight: 900;
+  width: 274.3px;
+  height: 57.2px;
+}
+.rectangle-parent,
+.sign-in {
+  position: absolute;
+  top: 733.8px;
+  left: 348.1px;
+  width: 746.8px;
+  height: 84.3px;
+}
+.sign-in {
+  top: 14.3px;
+  left: 216.4px;
+  display: inline-block;
+  font-weight: 900;
+  width: 310.9px;
+  height: 57.2px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 846.7px;
+  left: 348.1px;
+  width: 746.8px;
+  height: 84.3px;
+}
+.logo-spliteride-icon {
+  position: absolute;
+  top: 211px;
+  left: 214px;
+  width: 1012px;
+  height: 404px;
+  object-fit: cover;
+}
+.welcome-to-spliteride {
+  margin: 0;
+}
+.welcome-to-spliteride-container {
+  position: absolute;
+  top: 93px;
+  left: 278px;
+  font-size: var(--font-size-31xl);
+  display: inline-block;
+  font-weight: 900;
+  width: 887px;
+  height: 114px;
+}
+.youre-best-mobile {
+  position: absolute;
+  top: 623px;
+  left: 224px;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  display: none;
+  width: 992px;
+  height: 93px;
+}
+.welcome {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

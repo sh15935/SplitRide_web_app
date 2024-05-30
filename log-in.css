@@ -1,0 +1,158 @@
+.hey {
+  position: absolute;
+  top: 98px;
+  left: 425px;
+  display: inline-block;
+  font-weight: 900;
+  width: 596px;
+  height: 68px;
+}
+.group-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 25px;
+  background-color: var(--color-gainsboro);
+  width: 961px;
+  height: 709.6px;
+  overflow: hidden;
+}
+.first-name,
+.gender,
+.key-word,
+.last-name,
+.number,
+.picture {
+  position: absolute;
+  top: 0;
+  left: 54.9px;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 500.3px;
+  height: 42.2px;
+}
+.gender,
+.key-word,
+.last-name,
+.number,
+.picture {
+  top: 81.5px;
+  height: 40.7px;
+}
+.gender,
+.key-word,
+.number,
+.picture {
+  top: 161.6px;
+  height: 42.2px;
+}
+.gender,
+.key-word,
+.picture {
+  top: 243.1px;
+  height: 46.4px;
+}
+.key-word,
+.picture {
+  top: 328.8px;
+  height: 40.7px;
+}
+.picture {
+  top: 397.6px;
+  left: 0;
+  height: 42.2px;
+}
+.first-name-parent {
+  position: absolute;
+  top: 35.1px;
+  left: 33.6px;
+  width: 555.2px;
+  height: 439.8px;
+}
+.group-child1,
+.group-child2,
+.group-child3,
+.group-child4,
+.group-child5,
+.rectangle-div {
+  position: absolute;
+  top: 36.9px;
+  left: 557.3px;
+  background-color: var(--color-gainsboro);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 368.1px;
+  height: 38.5px;
+}
+.group-child1,
+.group-child2,
+.group-child3,
+.group-child4,
+.group-child5 {
+  top: 365.7px;
+}
+.group-child2,
+.group-child3,
+.group-child4,
+.group-child5 {
+  top: 437.4px;
+}
+.group-child3,
+.group-child4,
+.group-child5 {
+  top: 117px;
+}
+.group-child4,
+.group-child5 {
+  top: 198.5px;
+}
+.group-child5 {
+  top: 281.4px;
+}
+.frame-parent {
+  position: absolute;
+  top: 172.5px;
+  left: 239px;
+  width: 961px;
+  height: 709.6px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.group-child6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 26px;
+  background-color: var(--color-silver);
+  width: 878.6px;
+  height: 67.4px;
+}
+.valide {
+  position: absolute;
+  top: 8.4px;
+  left: 265.4px;
+  display: inline-block;
+  font-weight: 900;
+  width: 347.8px;
+  height: 50.6px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 859.6px;
+  left: 284.8px;
+  width: 878.6px;
+  height: 67.4px;
+  font-size: var(--font-size-11xl);
+}
+.log-in1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
