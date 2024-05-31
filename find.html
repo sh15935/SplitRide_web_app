@@ -13,8 +13,7 @@
   </head>
   <body>
     <div class="find">
-      <input class="find-child" type="date" />
-
+      <div class="find-child"></div>
       <input class="select-date" type="datetime-local" />
 
       <div class="select-region-2" id="selectRegion2Container">
@@ -68,7 +67,7 @@
         <div class="driver">Driver</div>
         <div class="rider">Rider</div>
       </div>
-      <div class="find-inner" id="rectangle"></div>
+      <div class="find-inner" id="rectangle1"></div>
       <div class="search">search</div>
       <div class="front-content">
         <div class="front-content-child"></div>
@@ -106,9 +105,9 @@
         });
       }
 
-      var rectangle = document.getElementById("rectangle");
-      if (rectangle) {
-        rectangle.addEventListener("click", function (e) {
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
           window.location.href = "./a-f-t-e-r-s-e-a-r-c-h.html";
         });
       }

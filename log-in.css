@@ -1,101 +1,159 @@
-.group-child6,
-.group-child7 {
+.hey {
   position: absolute;
-  top: 50px;
-  left: 0;
-  border-radius: 39px;
-  background-color: var(--color-gainsboro);
-  width: 1217px;
-  height: 633.8px;
-}
-.group-child7 {
-  top: 0;
-  left: 109.6px;
-  border-radius: 44px;
-  background-color: var(--color-silver);
-  width: 500.9px;
-  height: 102px;
-}
-.log-in3 {
-  position: absolute;
-  top: 14px;
-  left: 183.9px;
+  top: 98px;
+  left: 425px;
   display: inline-block;
   font-weight: 900;
-  width: 352.2px;
-  height: 72px;
+  width: 596px;
+  height: 68px;
 }
-.rectangle-button {
+.first-name,
+.gender,
+.key-word,
+.last-name,
+.number,
+.picture {
+  position: absolute;
+  top: 0;
+  left: 54.9px;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 500.3px;
+  height: 42.2px;
+}
+.gender,
+.key-word,
+.last-name,
+.number,
+.picture {
+  top: 81.5px;
+  height: 40.7px;
+}
+.gender,
+.key-word,
+.number,
+.picture {
+  top: 161.6px;
+  height: 42.2px;
+}
+.gender,
+.key-word,
+.picture {
+  top: 243.1px;
+  height: 46.4px;
+}
+.key-word,
+.picture {
+  top: 328.8px;
+  height: 40.7px;
+}
+.picture {
+  top: 397.6px;
+  left: 0;
+  height: 42.2px;
+}
+.first-name-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 555.2px;
+  height: 439.8px;
+}
+.group-inner {
+  outline: 0;
+  top: 1.8px;
+}
+.group-child1,
+.group-child2,
+.group-child3,
+.group-child4,
+.group-inner,
+.rectangle-input {
+  position: absolute;
+  left: 523.7px;
+  background-color: var(--color-gainsboro);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 368.1px;
+  height: 38.5px;
+}
+.rectangle-input {
+  outline: 0;
+  top: 330.6px;
+}
+.group-child1,
+.group-child2,
+.group-child3,
+.group-child4 {
+  top: 402.3px;
+}
+.group-child2,
+.group-child3,
+.group-child4 {
+  outline: 0;
+  top: 81.9px;
+}
+.group-child3,
+.group-child4 {
+  top: 163.4px;
+}
+.group-child4 {
+  top: 246.3px;
+}
+.group-parent {
+  position: absolute;
+  top: 207.6px;
+  left: 272.6px;
+  width: 890.8px;
+  height: 439.8px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 26px;
+  background-color: var(--color-silver);
+  width: 878.6px;
+  height: 67.4px;
+}
+.rectangle-container,
+.valide {
+  position: absolute;
   cursor: pointer;
+}
+.valide {
   border: 0;
   padding: 0;
-  background-color: var(--color-silver);
-  position: absolute;
-  top: 623.8px;
-  left: 74.4px;
-  border-radius: 42px;
-  width: 1072.2px;
-  height: 118px;
-}
-.connect,
-.key-word1,
-.number1 {
-  position: absolute;
+  background-color: transparent;
+  top: 8.4px;
+  left: 265.4px;
+  font-size: var(--font-size-11xl);
   display: inline-block;
+  font-style: italic;
   font-weight: 900;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  width: 347.8px;
+  height: 50.6px;
 }
-.connect {
-  top: 633.8px;
-  left: 238.7px;
-  width: 727.9px;
-  height: 108px;
+.rectangle-container {
+  top: 859.6px;
+  left: 284.8px;
+  width: 878.6px;
+  height: 67.4px;
 }
-.key-word1,
-.number1 {
-  left: 74.4px;
-  font-size: var(--font-size-31xl);
-  text-align: left;
-  height: 72px;
-}
-.number1 {
-  top: 173.9px;
-  white-space: pre-wrap;
-  width: 614.4px;
-}
-.key-word1 {
-  top: 349.9px;
-  width: 723.9px;
-}
-.group-child8,
-.group-child9 {
-  border: 1px dashed var(--color-black);
-  outline: 0;
-  background-color: var(--color-gainsboro);
-  position: absolute;
-  top: 172.9px;
-  left: 726.9px;
-  box-sizing: border-box;
-  width: 448.1px;
-  height: 76px;
-}
-.group-child9 {
-  top: 346.9px;
-}
-.group-div {
-  position: absolute;
-  top: 141px;
-  left: 111px;
-  width: 1217px;
-  height: 741.7px;
-}
-.log-in2 {
+.sign-in1 {
   width: 100%;
   position: relative;
   background-color: var(--color-whitesmoke);
   height: 1024px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-41xl);
+  font-size: var(--font-size-31xl);
   color: var(--color-black);
   font-family: var(--font-inter);
 }

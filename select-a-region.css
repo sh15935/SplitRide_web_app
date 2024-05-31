@@ -57,12 +57,13 @@
   border-radius: 22px;
   width: 590px;
   height: 64px;
+  cursor: pointer;
 }
 .validate {
   position: absolute;
   top: 747px;
   left: 515px;
-  font-size: 20px;
+  font-size: 40px;
   letter-spacing: -0.24px;
   font-weight: 500;
   color: var(--color-white);

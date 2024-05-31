@@ -225,6 +225,7 @@
   background-color: var(--color-gray-200);
   width: 747px;
   height: 49px;
+  cursor: pointer;
 }
 .add1 {
   position: absolute;

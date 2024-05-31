@@ -1,0 +1,101 @@
+.group-child6,
+.group-child7 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  border-radius: 39px;
+  background-color: var(--color-gainsboro);
+  width: 1217px;
+  height: 633.8px;
+}
+.group-child7 {
+  top: 0;
+  left: 109.6px;
+  border-radius: 44px;
+  background-color: var(--color-silver);
+  width: 500.9px;
+  height: 102px;
+}
+.log-in3 {
+  position: absolute;
+  top: 14px;
+  left: 183.9px;
+  display: inline-block;
+  font-weight: 900;
+  width: 352.2px;
+  height: 72px;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-silver);
+  position: absolute;
+  top: 623.8px;
+  left: 74.4px;
+  border-radius: 42px;
+  width: 1072.2px;
+  height: 118px;
+}
+.connect,
+.key-word1,
+.number1 {
+  position: absolute;
+  display: inline-block;
+  font-weight: 900;
+}
+.connect {
+  top: 633.8px;
+  left: 238.7px;
+  width: 727.9px;
+  height: 108px;
+}
+.key-word1,
+.number1 {
+  left: 74.4px;
+  font-size: var(--font-size-31xl);
+  text-align: left;
+  height: 72px;
+}
+.number1 {
+  top: 173.9px;
+  white-space: pre-wrap;
+  width: 614.4px;
+}
+.key-word1 {
+  top: 349.9px;
+  width: 723.9px;
+}
+.group-child8,
+.group-child9 {
+  border: 1px dashed var(--color-black);
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  top: 172.9px;
+  left: 726.9px;
+  box-sizing: border-box;
+  width: 448.1px;
+  height: 76px;
+}
+.group-child9 {
+  top: 346.9px;
+}
+.group-div {
+  position: absolute;
+  top: 141px;
+  left: 111px;
+  width: 1217px;
+  height: 741.7px;
+}
+.log-in2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

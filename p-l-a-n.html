@@ -15,7 +15,7 @@
     <div class="plan">
       <div class="plan-child"></div>
       <div class="plan-item"></div>
-      <div class="plan-inner"></div>
+      <div class="plan-inner" id="rectangle2"></div>
       <div class="add">add</div>
       <div class="front4">
         <div class="front-child5"></div>
@@ -75,6 +75,13 @@
     </div>
 
     <script>
+      var rectangle2 = document.getElementById("rectangle2");
+      if (rectangle2) {
+        rectangle2.addEventListener("click", function (e) {
+          window.location.href = "./a-d-d-a-p-l-a-n.html";
+        });
+      }
+
       var tabBarItem = document.getElementById("tabBarItem");
       if (tabBarItem) {
         tabBarItem.addEventListener("click", function (e) {

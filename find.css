@@ -1,11 +1,9 @@
 .find-child {
-  border: 0;
-  outline: 0;
-  background-color: var(--color-gainsboro);
   position: absolute;
   top: 283px;
   left: 279px;
   border-radius: var(--br-16xl);
+  background-color: var(--color-gainsboro);
   width: 878px;
   height: 483px;
 }

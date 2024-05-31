@@ -22,7 +22,7 @@
       <div class="adresse">Adresse :</div>
       <input class="select-a-region-inner" type="text" />
 
-      <input class="select-a-region-child1" type="text" />
+      <input class="select-a-region-child1" type="text" id="rectangleInput2" />
 
       <div class="validate">validate</div>
       <div class="front2">
@@ -83,6 +83,13 @@
     </div>
 
     <script>
+      var rectangleInput2 = document.getElementById("rectangleInput2");
+      if (rectangleInput2) {
+        rectangleInput2.addEventListener("click", function (e) {
+          window.location.href = "./find.html";
+        });
+      }
+
       var tabBarItem = document.getElementById("tabBarItem");
       if (tabBarItem) {
         tabBarItem.addEventListener("click", function (e) {

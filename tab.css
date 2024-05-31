@@ -1,11 +1,11 @@
-.iconhome {
+.iconhome5 {
   position: absolute;
   bottom: -1px;
   left: calc(50% - 54px);
   letter-spacing: -0.24px;
   font-weight: 500;
 }
-.praying-hand-icon {
+.praying-hand-icon1 {
   position: absolute;
   height: 33.33%;
   width: 41.69%;
@@ -17,7 +17,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.tab-bar-item {
+.tab-bar-item5 {
   position: absolute;
   top: -2px;
   left: calc(50% - 394.5px);
@@ -25,7 +25,7 @@
   height: 114px;
   cursor: pointer;
 }
-.home-icon {
+.home-icon1 {
   position: absolute;
   top: 30px;
   left: 51px;
@@ -34,14 +34,14 @@
   overflow: hidden;
   object-fit: cover;
 }
-.iconhome1 {
+.iconhome6 {
   position: absolute;
   bottom: -1px;
   left: calc(50% - 34.5px);
   letter-spacing: -0.24px;
   font-weight: 500;
 }
-.tab-bar-item1 {
+.tab-bar-item6 {
   position: absolute;
   top: 4px;
   left: calc(50% - 222.5px);
@@ -49,7 +49,7 @@
   height: 114px;
   cursor: pointer;
 }
-.tab-bar-item-child {
+.tab-bar-item-item {
   position: absolute;
   top: 31px;
   left: 39px;
@@ -58,14 +58,14 @@
   width: 86px;
   height: 85px;
 }
-.iconhome2 {
+.iconhome7 {
   position: absolute;
   bottom: -1px;
   left: calc(50% - 25px);
   letter-spacing: -0.24px;
   font-weight: 500;
 }
-.steering-wheel-icon {
+.steering-wheel-icon1 {
   position: absolute;
   top: 31px;
   left: 57px;
@@ -73,7 +73,7 @@
   height: 52px;
   overflow: hidden;
 }
-.tab-bar-item2 {
+.tab-bar-item7 {
   position: absolute;
   top: 4px;
   left: calc(50% - 44.5px);
@@ -81,14 +81,14 @@
   height: 114px;
   cursor: pointer;
 }
-.iconhome3 {
+.iconhome8 {
   position: absolute;
   bottom: -1px;
   left: calc(50% - 24.5px);
   letter-spacing: -0.24px;
   font-weight: 500;
 }
-.street-sign-crossroad-street-icon {
+.street-sign-crossroad-street-icon1 {
   position: absolute;
   top: 35px;
   left: 44px;
@@ -96,7 +96,7 @@
   height: 50px;
   overflow: hidden;
 }
-.tab-bar-item3 {
+.tab-bar-item8 {
   position: absolute;
   top: 4px;
   left: calc(50% + 134.5px);
@@ -104,14 +104,14 @@
   height: 114px;
   cursor: pointer;
 }
-.iconhome4 {
+.iconhome9 {
   position: absolute;
   bottom: -1px;
   left: calc(50% - 55px);
   letter-spacing: -0.24px;
   font-weight: 500;
 }
-.chat-bubble-oval-smiley-1-mes-icon {
+.chat-bubble-oval-smiley-1-mes-icon1 {
   position: absolute;
   top: 32px;
   left: 49px;
@@ -120,7 +120,7 @@
   overflow: hidden;
   object-fit: contain;
 }
-.tab-bar-item4 {
+.tab-bar-item9 {
   position: absolute;
   top: 4px;
   left: calc(50% + 312.5px);

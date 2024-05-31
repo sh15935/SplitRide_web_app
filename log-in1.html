@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./log-in1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,500;1,900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="log-in2">
+      <div class="group-div">
+        <div class="group-child6"></div>
+        <div class="group-child7"></div>
+        <i class="log-in3">Log In</i>
+        <button class="rectangle-button" id="rectangleButton"></button>
+        <i class="connect">connect </i>
+        <i class="number1">Number :</i>
+        <i class="key-word1">Key Word :</i>
+        <input class="group-child8" type="number" />
+
+        <input class="group-child9" type="password" />
+      </div>
+    </div>
+
+    <script>
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+    </script>
+  </body>
+</html>
