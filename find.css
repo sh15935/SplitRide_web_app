@@ -1,0 +1,359 @@
+.find-child {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  top: 283px;
+  left: 279px;
+  border-radius: var(--br-16xl);
+  width: 878px;
+  height: 483px;
+}
+.select-date,
+.select-region-2-child {
+  position: absolute;
+  background-color: var(--color-darkgray-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.select-date {
+  outline: 0;
+  top: calc(50% - 59.8px);
+  left: calc(50% + 144.5px);
+  width: 270.4px;
+  height: 32.9px;
+}
+.select-region-2-child {
+  top: calc(50% - 17.45px);
+  left: calc(50% - 136.2px);
+  width: 272.4px;
+  height: 34.9px;
+}
+.select-a-region {
+  position: absolute;
+  top: 4.5px;
+  left: 11.2px;
+  line-height: 140%;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  width: 245.3px;
+  height: 25.4px;
+}
+.select-region-2 {
+  position: absolute;
+  top: calc(50% - 110.6px);
+  left: calc(50% + 144.5px);
+  width: 270.4px;
+  height: 32.9px;
+  cursor: pointer;
+}
+.leaving-from {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.num-of-passager {
+  margin: 0;
+}
+.content-text-container1 {
+  width: 100%;
+}
+.content-text-container {
+  position: absolute;
+  top: 331px;
+  left: 318px;
+  font-size: var(--font-size-11xl);
+  line-height: 140%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 558px;
+  height: 305px;
+}
+.select-region-1-child {
+  border: 1px solid var(--color-black);
+  outline: 0;
+  background-color: var(--color-darkgray-200);
+  position: absolute;
+  top: calc(50% - 17.45px);
+  left: calc(50% - 136.2px);
+  box-sizing: border-box;
+  width: 272.4px;
+  height: 34.9px;
+}
+.select-a-region1 {
+  position: absolute;
+  top: 4.5px;
+  left: calc(50% - 124px);
+  line-height: 140%;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  width: 245.3px;
+  height: 25.4px;
+}
+.select-region-1 {
+  position: absolute;
+  top: calc(50% - 159.9px);
+  left: calc(50% + 144.5px);
+  width: 270.4px;
+  height: 32.9px;
+  cursor: pointer;
+}
+.num-pass-icon-child {
+  position: absolute;
+  top: 9.6px;
+  left: 0;
+  width: 270.4px;
+  height: 23.1px;
+  object-fit: contain;
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 140%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 7.7px;
+  height: 5.9px;
+}
+.container,
+.frame,
+.frame-child,
+.wrapper,
+.wrapper1 {
+  position: absolute;
+  top: 0;
+  left: 234.9px;
+  width: 21.4px;
+  height: 8.8px;
+}
+.container,
+.frame,
+.frame-child,
+.wrapper1 {
+  top: 4.8px;
+  left: 175.5px;
+}
+.frame,
+.frame-child,
+.wrapper1 {
+  top: 9.6px;
+  left: 123.4px;
+}
+.frame-child,
+.wrapper1 {
+  top: 14.3px;
+  left: 68.8px;
+}
+.frame-child {
+  top: -2.3px;
+  left: -2px;
+  border-radius: 50%;
+  background-color: var(--color-darkgray-200);
+  width: 10px;
+  height: 10px;
+}
+.ellipse-parent,
+.num-pass-icon {
+  position: absolute;
+  top: 18.3px;
+  left: 16.6px;
+  width: 21.4px;
+  height: 8.8px;
+}
+.num-pass-icon {
+  top: 491.1px;
+  left: 861.7px;
+  width: 270.4px;
+  height: 32.7px;
+}
+.find-item,
+.frame-item {
+  position: absolute;
+  box-sizing: border-box;
+}
+.find-item {
+  border: 1px solid var(--color-black);
+  outline: 0;
+  background-color: var(--color-darkgray-200);
+  top: calc(50% + 27px);
+  left: calc(50% + 143px);
+  width: 273px;
+  height: 35px;
+}
+.frame-item {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  border: 1px dashed var(--color-black);
+  width: 41.8px;
+  height: 25.4px;
+}
+.driver-or-rider-child,
+.driver-or-rider-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 25.4px;
+  left: 13.9px;
+  width: 41.8px;
+  height: 25.4px;
+}
+.driver-or-rider-child {
+  left: 105.9px;
+}
+.driver,
+.rider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 140%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 89.2px;
+  height: 25.4px;
+}
+.rider {
+  left: 92px;
+}
+.driver-or-rider {
+  position: absolute;
+  top: 573.3px;
+  left: 909.1px;
+  width: 181.2px;
+  height: 50.8px;
+  font-size: var(--font-size-3xs);
+}
+.find-inner {
+  position: absolute;
+  top: 687px;
+  left: 346px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-gray-200);
+  width: 747px;
+  height: 49px;
+  cursor: pointer;
+}
+.search {
+  position: absolute;
+  top: 678px;
+  left: 508px;
+  font-size: var(--font-size-31xl);
+  line-height: 140%;
+  font-weight: 500;
+  color: var(--color-gray-100);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 368px;
+  height: 67px;
+}
+.front-content-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-black);
+  width: 878.2px;
+  height: 73.2px;
+}
+.find-a-student1 {
+  position: absolute;
+  top: 18px;
+  left: 50.2px;
+  line-height: 140%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 591.1px;
+  height: 37.4px;
+}
+.front-content {
+  position: absolute;
+  top: 258px;
+  left: 281.8px;
+  width: 878.2px;
+  height: 73.2px;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+}
+.front-inner {
+  position: absolute;
+  top: 35px;
+  left: calc(50% - 381px);
+  border-radius: var(--br-9xl);
+  background-color: var(--color-gainsboro);
+  width: 722px;
+  height: 91px;
+}
+.ellipse-div,
+.image-3-icon1 {
+  position: absolute;
+  top: 29px;
+  height: 97px;
+}
+.image-3-icon1 {
+  left: calc(50% + 341px);
+  width: 92px;
+  object-fit: cover;
+}
+.ellipse-div {
+  left: calc(50% + 450px);
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 102px;
+}
+.image-2-icon1 {
+  position: absolute;
+  top: 47px;
+  left: calc(50% + 262px);
+  width: 59px;
+  height: 61px;
+  object-fit: cover;
+}
+.image-4-icon1,
+.logo-spliteride-icon2 {
+  position: absolute;
+  top: 29px;
+  left: calc(50% + 453px);
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.logo-spliteride-icon2 {
+  top: 0;
+  left: calc(50% - 552px);
+  width: 171px;
+  height: 145px;
+}
+.find,
+.front1 {
+  overflow: hidden;
+}
+.front1 {
+  position: absolute;
+  top: 27px;
+  left: calc(50% - 624px);
+  width: 1248px;
+  height: 144px;
+}
+.find {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  height: 1024px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

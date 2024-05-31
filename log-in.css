@@ -7,16 +7,6 @@
   width: 596px;
   height: 68px;
 }
-.group-inner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 25px;
-  background-color: var(--color-gainsboro);
-  width: 961px;
-  height: 709.6px;
-  overflow: hidden;
-}
 .first-name,
 .gender,
 .key-word,
@@ -65,61 +55,62 @@
 }
 .first-name-parent {
   position: absolute;
-  top: 35.1px;
-  left: 33.6px;
+  top: 0;
+  left: 0;
   width: 555.2px;
   height: 439.8px;
+}
+.group-inner {
+  outline: 0;
+  top: 1.8px;
 }
 .group-child1,
 .group-child2,
 .group-child3,
 .group-child4,
-.group-child5,
-.rectangle-div {
+.group-inner,
+.rectangle-input {
   position: absolute;
-  top: 36.9px;
-  left: 557.3px;
+  left: 523.7px;
   background-color: var(--color-gainsboro);
   border: 1px dashed var(--color-black);
   box-sizing: border-box;
   width: 368.1px;
   height: 38.5px;
 }
+.rectangle-input {
+  outline: 0;
+  top: 330.6px;
+}
 .group-child1,
 .group-child2,
 .group-child3,
-.group-child4,
-.group-child5 {
-  top: 365.7px;
+.group-child4 {
+  top: 402.3px;
 }
 .group-child2,
 .group-child3,
-.group-child4,
-.group-child5 {
-  top: 437.4px;
+.group-child4 {
+  outline: 0;
+  top: 81.9px;
 }
 .group-child3,
-.group-child4,
-.group-child5 {
-  top: 117px;
+.group-child4 {
+  top: 163.4px;
 }
-.group-child4,
-.group-child5 {
-  top: 198.5px;
+.group-child4 {
+  top: 246.3px;
 }
-.group-child5 {
-  top: 281.4px;
-}
-.frame-parent {
+.group-parent {
   position: absolute;
-  top: 172.5px;
-  left: 239px;
-  width: 961px;
-  height: 709.6px;
+  top: 207.6px;
+  left: 272.6px;
+  width: 890.8px;
+  height: 439.8px;
   text-align: left;
   font-size: var(--font-size-3xl);
 }
-.group-child6 {
+.rectangle-div {
   position: absolute;
   top: 0;
   left: 0;
@@ -128,24 +119,34 @@
   width: 878.6px;
   height: 67.4px;
 }
+.rectangle-container,
 .valide {
   position: absolute;
+  cursor: pointer;
+}
+.valide {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   top: 8.4px;
   left: 265.4px;
+  font-size: var(--font-size-11xl);
   display: inline-block;
+  font-style: italic;
   font-weight: 900;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
   width: 347.8px;
   height: 50.6px;
 }
 .rectangle-container {
-  position: absolute;
   top: 859.6px;
   left: 284.8px;
   width: 878.6px;
   height: 67.4px;
-  font-size: var(--font-size-11xl);
 }
-.log-in1 {
+.sign-in1 {
   width: 100%;
   position: relative;
   background-color: var(--color-whitesmoke);

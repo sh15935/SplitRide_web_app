@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./a-d-d-a-p-l-a-n.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,500;1,900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="add-a-plan">
+      <div class="add-a-plan-child"></div>
+      <input class="select-date1" type="datetime-local" />
+
+      <div class="select-region-21">
+        <div class="select-region-2-item"></div>
+        <div class="select-a-region3">select a region</div>
+      </div>
+      <div class="content-text-container2">
+        <span class="content-text-container3">
+          <p class="leaving-from1">leaving from :</p>
+          <p class="leaving-from1">Going to :</p>
+          <p class="leaving-from1">Date :</p>
+          <p class="num-of-passager1">Num of passager :</p>
+          <p class="leaving-from1">Price :</p>
+          <p class="leaving-from1">You are a :</p>
+        </span>
+      </div>
+      <div class="select-region-11">
+        <div class="select-region-2-item"></div>
+        <div class="select-a-region4">select a region</div>
+      </div>
+      <div class="num-pass-icon1">
+        <img class="num-pass-icon-item" alt="" src="./public/polygon-1.svg" />
+
+        <div class="wrapper2">
+          <div class="div5">5</div>
+        </div>
+        <div class="wrapper3">
+          <div class="div5">4</div>
+        </div>
+        <div class="wrapper4">
+          <div class="div5">3</div>
+        </div>
+        <div class="wrapper5">
+          <div class="div5">2</div>
+        </div>
+        <div class="ellipse-group">
+          <div class="frame-child1"></div>
+          <div class="div5">1</div>
+        </div>
+      </div>
+      <input class="add-a-plan-item" type="number" />
+
+      <div class="driver-or-rider1">
+        <button class="frame-button" autofocus="{true}">
+          <div class="frame-child2"></div>
+        </button>
+        <button class="driver-or-rider-inner1" autofocus="{true}">
+          <div class="frame-child2"></div>
+        </button>
+        <div class="driver1">Driver</div>
+        <div class="rider1">Rider</div>
+      </div>
+      <div class="add-a-plan-inner"></div>
+      <div class="add1">Add</div>
+      <div class="front-content1">
+        <div class="front-content-item"></div>
+        <div class="find-a-student2">Find a student</div>
+      </div>
+      <div class="front5">
+        <div class="front-child7"></div>
+        <img class="image-3-icon5" alt="" src="./public/image-3@2x.png" />
+
+        <div class="front-child8"></div>
+        <img class="image-2-icon5" alt="" src="./public/image-2@2x.png" />
+
+        <img class="image-4-icon5" alt="" src="./public/image-4@2x.png" />
+
+        <img
+          class="logo-spliteride-icon6"
+          alt=""
+          src="./public/logo-spliteride@2x.png"
+        />
+      </div>
+      <div class="tab4">
+        <div class="tab-bar-item25" id="tabBarItem">
+          <div class="iconhome25">Welcome</div>
+          <img
+            class="praying-hand-icon5"
+            alt=""
+            src="./public/prayinghand.svg"
+          />
+        </div>
+        <div class="tab-bar-item26" id="tabBarItem1">
+          <img class="home-icon5" alt="" src="./public/home@2x.png" />
+
+          <div class="iconhome26">Home</div>
+        </div>
+        <div class="tab-bar-item27" id="tabBarItem2">
+          <div class="iconhome27">Find</div>
+          <img
+            class="steering-wheel-icon5"
+            alt=""
+            src="./public/steeringwheel.svg"
+          />
+        </div>
+        <div class="tab-bar-item28" id="tabBarItem3">
+          <div class="tab-bar-item-child3"></div>
+          <div class="iconhome28">Plan</div>
+          <img
+            class="street-sign-crossroad-street-icon5"
+            alt=""
+            src="./public/streetsigncrossroadstreetsignmetaphordirectionstravelplaces.svg"
+          />
+        </div>
+        <div class="tab-bar-item29" id="tabBarItem4">
+          <div class="iconhome29">About Us</div>
+          <img
+            class="chat-bubble-oval-smiley-1-mes-icon5"
+            alt=""
+            src="./public/chatbubbleovalsmiley1messagesmessagebubblechatovalsmileysmile.svg"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tabBarItem = document.getElementById("tabBarItem");
+      if (tabBarItem) {
+        tabBarItem.addEventListener("click", function (e) {
+          window.location.href = "./welcome.html";
+        });
+      }
+
+      var tabBarItem1 = document.getElementById("tabBarItem1");
+      if (tabBarItem1) {
+        tabBarItem1.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+
+      var tabBarItem2 = document.getElementById("tabBarItem2");
+      if (tabBarItem2) {
+        tabBarItem2.addEventListener("click", function (e) {
+          window.location.href = "./find1.html";
+        });
+      }
+
+      var tabBarItem3 = document.getElementById("tabBarItem3");
+      if (tabBarItem3) {
+        tabBarItem3.addEventListener("click", function (e) {
+          window.location.href = "./p-l-a-n.html";
+        });
+      }
+
+      var tabBarItem4 = document.getElementById("tabBarItem4");
+      if (tabBarItem4) {
+        tabBarItem4.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./p-l-a-n.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,500;1,900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="plan">
+      <div class="plan-child"></div>
+      <div class="plan-item"></div>
+      <div class="plan-inner"></div>
+      <div class="add">add</div>
+      <div class="front4">
+        <div class="front-child5"></div>
+        <img class="image-3-icon4" alt="" src="./public/image-3@2x.png" />
+
+        <div class="front-child6"></div>
+        <img class="image-2-icon4" alt="" src="./public/image-2@2x.png" />
+
+        <img class="image-4-icon4" alt="" src="./public/image-4@2x.png" />
+
+        <img
+          class="logo-spliteride-icon5"
+          alt=""
+          src="./public/logo-spliteride@2x.png"
+        />
+      </div>
+      <div class="tab3">
+        <div class="tab-bar-item20" id="tabBarItem">
+          <div class="iconhome20">Welcome</div>
+          <img
+            class="praying-hand-icon4"
+            alt=""
+            src="./public/prayinghand.svg"
+          />
+        </div>
+        <div class="tab-bar-item21" id="tabBarItem1">
+          <img class="home-icon4" alt="" src="./public/home@2x.png" />
+
+          <div class="iconhome21">Home</div>
+        </div>
+        <div class="tab-bar-item22" id="tabBarItem2">
+          <div class="iconhome22">Find</div>
+          <img
+            class="steering-wheel-icon4"
+            alt=""
+            src="./public/steeringwheel.svg"
+          />
+        </div>
+        <div class="tab-bar-item23" id="tabBarItem3">
+          <div class="tab-bar-item-child2"></div>
+          <div class="iconhome23">Plan</div>
+          <img
+            class="street-sign-crossroad-street-icon4"
+            alt=""
+            src="./public/streetsigncrossroadstreetsignmetaphordirectionstravelplaces.svg"
+          />
+        </div>
+        <div class="tab-bar-item24" id="tabBarItem4">
+          <div class="iconhome24">About Us</div>
+          <img
+            class="chat-bubble-oval-smiley-1-mes-icon4"
+            alt=""
+            src="./public/chatbubbleovalsmiley1messagesmessagebubblechatovalsmileysmile.svg"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tabBarItem = document.getElementById("tabBarItem");
+      if (tabBarItem) {
+        tabBarItem.addEventListener("click", function (e) {
+          window.location.href = "./welcome.html";
+        });
+      }
+
+      var tabBarItem1 = document.getElementById("tabBarItem1");
+      if (tabBarItem1) {
+        tabBarItem1.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+
+      var tabBarItem2 = document.getElementById("tabBarItem2");
+      if (tabBarItem2) {
+        tabBarItem2.addEventListener("click", function (e) {
+          window.location.href = "./find1.html";
+        });
+      }
+
+      var tabBarItem3 = document.getElementById("tabBarItem3");
+      if (tabBarItem3) {
+        tabBarItem3.addEventListener("click", function (e) {
+          window.location.href = "./p-l-a-n.html";
+        });
+      }
+
+      var tabBarItem4 = document.getElementById("tabBarItem4");
+      if (tabBarItem4) {
+        tabBarItem4.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+    </script>
+  </body>
+</html>

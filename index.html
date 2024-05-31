@@ -13,14 +13,14 @@
   </head>
   <body>
     <div class="welcome">
-      <div class="rectangle-parent">
+      <button class="rectangle-parent" autofocus="{true}" id="groupButton">
         <div class="group-child"></div>
         <i class="log-in">Log In </i>
-      </div>
-      <div class="rectangle-group">
+      </button>
+      <button class="rectangle-group" autofocus="{true}" id="groupButton1">
         <div class="group-child"></div>
         <i class="sign-in">Sign In </i>
-      </div>
+      </button>
       <img
         class="logo-spliteride-icon"
         alt=""
@@ -32,5 +32,21 @@
       </i>
       <div class="youre-best-mobile">you’re best mobile app as a student</div>
     </div>
+
+    <script>
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./log-in.html";
+        });
+      }
+
+      var groupButton1 = document.getElementById("groupButton1");
+      if (groupButton1) {
+        groupButton1.addEventListener("click", function (e) {
+          window.location.href = "./log-in.html";
+        });
+      }
+    </script>
   </body>
 </html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./tab.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,500;1,900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="tab">
+      <div class="tab-bar-item" id="tabBarItem">
+        <div class="iconhome">Welcome</div>
+        <img class="praying-hand-icon" alt="" src="./public/prayinghand.svg" />
+      </div>
+      <div class="tab-bar-item1" id="tabBarItem1">
+        <img class="home-icon" alt="" src="./public/home@2x.png" />
+
+        <div class="iconhome1">Home</div>
+      </div>
+      <div class="tab-bar-item2" id="tabBarItem2">
+        <div class="tab-bar-item-child"></div>
+        <div class="iconhome2">Find</div>
+        <img
+          class="steering-wheel-icon"
+          alt=""
+          src="./public/steeringwheel.svg"
+        />
+      </div>
+      <div class="tab-bar-item3" id="tabBarItem3">
+        <div class="iconhome3">Plan</div>
+        <img
+          class="street-sign-crossroad-street-icon"
+          alt=""
+          src="./public/streetsigncrossroadstreetsignmetaphordirectionstravelplaces.svg"
+        />
+      </div>
+      <div class="tab-bar-item4" id="tabBarItem4">
+        <div class="iconhome4">About Us</div>
+        <img
+          class="chat-bubble-oval-smiley-1-mes-icon"
+          alt=""
+          src="./public/chatbubbleovalsmiley1messagesmessagebubblechatovalsmileysmile.svg"
+        />
+      </div>
+    </div>
+
+    <script>
+      var tabBarItem = document.getElementById("tabBarItem");
+      if (tabBarItem) {
+        tabBarItem.addEventListener("click", function (e) {
+          window.location.href = "./welcome.html";
+        });
+      }
+
+      var tabBarItem1 = document.getElementById("tabBarItem1");
+      if (tabBarItem1) {
+        tabBarItem1.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+
+      var tabBarItem2 = document.getElementById("tabBarItem2");
+      if (tabBarItem2) {
+        tabBarItem2.addEventListener("click", function (e) {
+          window.location.href = "./find1.html";
+        });
+      }
+
+      var tabBarItem3 = document.getElementById("tabBarItem3");
+      if (tabBarItem3) {
+        tabBarItem3.addEventListener("click", function (e) {
+          window.location.href = "./p-l-a-n.html";
+        });
+      }
+
+      var tabBarItem4 = document.getElementById("tabBarItem4");
+      if (tabBarItem4) {
+        tabBarItem4.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+    </script>
+  </body>
+</html>

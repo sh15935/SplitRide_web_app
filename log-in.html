@@ -12,10 +12,9 @@
     />
   </head>
   <body>
-    <div class="log-in1">
+    <div class="sign-in1">
       <i class="hey">Hey (●'◡'●) </i>
-      <div class="frame-parent">
-        <div class="group-inner"></div>
+      <div class="group-parent">
         <div class="first-name-parent">
           <div class="first-name">First Name* :</div>
           <div class="last-name">Last Name* :</div>
@@ -24,17 +23,31 @@
           <div class="key-word">Key Word* :</div>
           <div class="picture">Picture :</div>
         </div>
-        <div class="rectangle-div"></div>
-        <div class="group-child1"></div>
-        <div class="group-child2"></div>
-        <div class="group-child3"></div>
-        <div class="group-child4"></div>
-        <div class="group-child5"></div>
+        <input class="group-inner" type="text" />
+
+        <input class="rectangle-input" type="password" />
+
+        <input class="group-child1" type="file" />
+
+        <input class="group-child2" type="text" />
+
+        <input class="group-child3" type="tel" />
+
+        <input class="group-child4" type="text" />
       </div>
-      <div class="rectangle-container">
-        <div class="group-child6"></div>
-        <i class="valide">Validée</i>
+      <div class="rectangle-container" id="groupContainer1">
+        <div class="rectangle-div"></div>
+        <button class="valide">Validée</button>
       </div>
     </div>
+
+    <script>
+      var groupContainer1 = document.getElementById("groupContainer1");
+      if (groupContainer1) {
+        groupContainer1.addEventListener("click", function (e) {
+          window.location.href = "./validation.html";
+        });
+      }
+    </script>
   </body>
 </html>

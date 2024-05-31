@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./home.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,500;1,900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home">
+      <div class="tab-bar">
+        <div class="tab-bar-item5" id="tabBarItem">
+          <div class="iconhome5">Welcome</div>
+          <img
+            class="praying-hand-icon1"
+            alt=""
+            src="./public/prayinghand.svg"
+          />
+        </div>
+        <div class="tab-bar-item6">
+          <div class="tab-bar-item-item"></div>
+          <img class="home-icon1" alt="" src="./public/home@2x.png" />
+
+          <div class="iconhome6">Home</div>
+        </div>
+        <div class="tab-bar-item7" id="tabBarItem2">
+          <div class="iconhome7">Find</div>
+          <img
+            class="steering-wheel-icon1"
+            alt=""
+            src="./public/steeringwheel.svg"
+          />
+        </div>
+        <div class="tab-bar-item8" id="tabBarItem3">
+          <div class="iconhome8">Plan</div>
+          <img
+            class="street-sign-crossroad-street-icon1"
+            alt=""
+            src="./public/streetsigncrossroadstreetsignmetaphordirectionstravelplaces.svg"
+          />
+        </div>
+        <div class="tab-bar-item9" id="tabBarItem4">
+          <div class="iconhome9">About Us</div>
+          <img
+            class="chat-bubble-oval-smiley-1-mes-icon1"
+            alt=""
+            src="./public/chatbubbleovalsmiley1messagesmessagebubblechatovalsmileysmile.svg"
+          />
+        </div>
+      </div>
+      <div class="home-child" id="rectangle"></div>
+      <div class="home-inner">
+        <div class="find-a-student-wrapper">
+          <div class="find-a-student">Find a student</div>
+        </div>
+      </div>
+      <div class="home-item" id="rectangle1"></div>
+      <div class="frame-div">
+        <div class="plan-for-a-travel-wrapper">
+          <div class="find-a-student">Plan for a Travel</div>
+        </div>
+      </div>
+      <div class="home-child1" id="rectangle2"></div>
+      <div class="home-inner1">
+        <div class="about-us-wrapper">
+          <div class="about-us">About Us</div>
+        </div>
+      </div>
+      <div class="front">
+        <div class="front-child"></div>
+        <img class="image-3-icon" alt="" src="./public/image-3@2x.png" />
+
+        <div class="front-item"></div>
+        <img class="image-2-icon" alt="" src="./public/image-2@2x.png" />
+
+        <img class="image-4-icon" alt="" src="./public/image-4@2x.png" />
+
+        <img
+          class="logo-spliteride-icon1"
+          alt=""
+          src="./public/logo-spliteride@2x.png"
+        />
+      </div>
+    </div>
+
+    <script>
+      var tabBarItem = document.getElementById("tabBarItem");
+      if (tabBarItem) {
+        tabBarItem.addEventListener("click", function (e) {
+          window.location.href = "./welcome.html";
+        });
+      }
+
+      var tabBarItem2 = document.getElementById("tabBarItem2");
+      if (tabBarItem2) {
+        tabBarItem2.addEventListener("click", function (e) {
+          window.location.href = "./find1.html";
+        });
+      }
+
+      var tabBarItem3 = document.getElementById("tabBarItem3");
+      if (tabBarItem3) {
+        tabBarItem3.addEventListener("click", function (e) {
+          window.location.href = "./p-l-a-n.html";
+        });
+      }
+
+      var tabBarItem4 = document.getElementById("tabBarItem4");
+      if (tabBarItem4) {
+        tabBarItem4.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./find1.html";
+        });
+      }
+
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          window.location.href = "./p-l-a-n.html";
+        });
+      }
+
+      var rectangle2 = document.getElementById("rectangle2");
+      if (rectangle2) {
+        rectangle2.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -11,13 +11,20 @@
   position: absolute;
   top: 14.3px;
   left: 234.7px;
+  font-size: var(--font-size-11xl);
   display: inline-block;
   font-weight: 900;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
   width: 274.3px;
   height: 57.2px;
 }
-.rectangle-parent,
-.sign-in {
+.rectangle-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: absolute;
   top: 733.8px;
   left: 348.1px;
@@ -25,14 +32,23 @@
   height: 84.3px;
 }
 .sign-in {
+  position: absolute;
   top: 14.3px;
   left: 216.4px;
+  font-size: var(--font-size-11xl);
   display: inline-block;
   font-weight: 900;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
   width: 310.9px;
   height: 57.2px;
 }
 .rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: absolute;
   top: 846.7px;
   left: 348.1px;
@@ -54,7 +70,6 @@
   position: absolute;
   top: 93px;
   left: 278px;
-  font-size: var(--font-size-31xl);
   display: inline-block;
   font-weight: 900;
   width: 887px;
@@ -77,7 +92,7 @@
   height: 1024px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-11xl);
+  font-size: var(--font-size-31xl);
   color: var(--color-black);
   font-family: var(--font-inter);
 }

@@ -1,0 +1,484 @@
+.add-a-plan-child {
+  position: absolute;
+  top: 283px;
+  left: 279px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-gainsboro);
+  width: 878px;
+  height: 483px;
+}
+.select-date1,
+.select-region-2-item {
+  position: absolute;
+  background-color: var(--color-darkgray-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.select-date1 {
+  outline: 0;
+  top: calc(50% - 59.8px);
+  left: calc(50% + 144.5px);
+  width: 270.4px;
+  height: 32.9px;
+}
+.select-region-2-item {
+  top: calc(50% - 17.45px);
+  left: calc(50% - 136.2px);
+  width: 272.4px;
+  height: 34.9px;
+}
+.select-a-region3 {
+  position: absolute;
+  top: 4.5px;
+  left: 11.2px;
+  line-height: 140%;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  width: 245.3px;
+  height: 25.4px;
+}
+.select-region-21 {
+  position: absolute;
+  top: calc(50% - 110.6px);
+  left: calc(50% + 144.5px);
+  width: 270.4px;
+  height: 32.9px;
+}
+.leaving-from1 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.num-of-passager1 {
+  margin: 0;
+}
+.content-text-container3 {
+  width: 100%;
+}
+.content-text-container2,
+.select-a-region4 {
+  position: absolute;
+  line-height: 140%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.content-text-container2 {
+  top: 331px;
+  left: 318px;
+  font-size: var(--font-size-11xl);
+  width: 558px;
+  height: 305px;
+}
+.select-a-region4 {
+  top: 4.5px;
+  left: calc(50% - 124px);
+  white-space: pre-wrap;
+  width: 245.3px;
+  height: 25.4px;
+}
+.select-region-11 {
+  position: absolute;
+  top: calc(50% - 159.9px);
+  left: calc(50% + 144.5px);
+  width: 270.4px;
+  height: 32.9px;
+}
+.num-pass-icon-item {
+  position: absolute;
+  top: 9.6px;
+  left: 0;
+  width: 270.4px;
+  height: 23.1px;
+  object-fit: contain;
+}
+.div5,
+.wrapper2 {
+  position: absolute;
+  top: 0;
+}
+.div5 {
+  left: 0;
+  line-height: 140%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 7.7px;
+  height: 5.9px;
+}
+.wrapper2 {
+  left: 234.9px;
+  width: 21.4px;
+  height: 8.8px;
+}
+.frame-child1,
+.wrapper3,
+.wrapper4,
+.wrapper5 {
+  position: absolute;
+  top: 4.8px;
+  left: 175.5px;
+  width: 21.4px;
+  height: 8.8px;
+}
+.frame-child1,
+.wrapper4,
+.wrapper5 {
+  top: 9.6px;
+  left: 123.4px;
+}
+.frame-child1,
+.wrapper5 {
+  top: 14.3px;
+  left: 68.8px;
+}
+.frame-child1 {
+  top: -2.3px;
+  left: -2px;
+  border-radius: 50%;
+  background-color: var(--color-darkgray-200);
+  width: 10px;
+  height: 10px;
+}
+.ellipse-group,
+.num-pass-icon1 {
+  position: absolute;
+  top: 18.3px;
+  left: 16.6px;
+  width: 21.4px;
+  height: 8.8px;
+}
+.num-pass-icon1 {
+  top: 491.1px;
+  left: 861.7px;
+  width: 270.4px;
+  height: 32.7px;
+}
+.add-a-plan-item,
+.frame-child2 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.add-a-plan-item {
+  border: 1px solid var(--color-black);
+  outline: 0;
+  background-color: var(--color-darkgray-200);
+  top: calc(50% + 27px);
+  left: calc(50% + 143px);
+  width: 273px;
+  height: 35px;
+}
+.frame-child2 {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  border: 1px dashed var(--color-black);
+  width: 41.8px;
+  height: 25.4px;
+}
+.driver-or-rider-inner1,
+.frame-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 25.4px;
+  left: 13.9px;
+  width: 41.8px;
+  height: 25.4px;
+}
+.driver-or-rider-inner1 {
+  left: 105.9px;
+}
+.driver1,
+.rider1 {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  line-height: 140%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 89.2px;
+}
+.rider1 {
+  top: 0;
+  left: 92px;
+  height: 25.4px;
+}
+.driver-or-rider1 {
+  position: absolute;
+  top: 573.3px;
+  left: 909.1px;
+  width: 181.2px;
+  height: 50.8px;
+  font-size: var(--font-size-3xs);
+}
+.add-a-plan-inner {
+  position: absolute;
+  top: 687px;
+  left: 346px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-gray-200);
+  width: 747px;
+  height: 49px;
+}
+.add1 {
+  position: absolute;
+  top: 678px;
+  left: 508px;
+  font-size: var(--font-size-31xl);
+  line-height: 140%;
+  font-weight: 500;
+  color: var(--color-gray-100);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 368px;
+  height: 67px;
+}
+.front-content-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-black);
+  width: 878.2px;
+  height: 73.2px;
+}
+.find-a-student2 {
+  position: absolute;
+  top: 18px;
+  left: 50.2px;
+  line-height: 140%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 591.1px;
+  height: 37.4px;
+}
+.front-content1 {
+  position: absolute;
+  top: 258px;
+  left: 281.8px;
+  width: 878.2px;
+  height: 73.2px;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+}
+.front-child7 {
+  position: absolute;
+  top: 35px;
+  left: calc(50% - 381px);
+  border-radius: var(--br-9xl);
+  background-color: var(--color-gainsboro);
+  width: 722px;
+  height: 91px;
+}
+.front-child8,
+.image-3-icon5 {
+  position: absolute;
+  top: 29px;
+  height: 97px;
+}
+.image-3-icon5 {
+  left: calc(50% + 341px);
+  width: 92px;
+  object-fit: cover;
+}
+.front-child8 {
+  left: calc(50% + 450px);
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 102px;
+}
+.image-2-icon5 {
+  position: absolute;
+  top: 47px;
+  left: calc(50% + 262px);
+  width: 59px;
+  height: 61px;
+  object-fit: cover;
+}
+.image-4-icon5,
+.logo-spliteride-icon6 {
+  position: absolute;
+  top: 29px;
+  left: calc(50% + 453px);
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.logo-spliteride-icon6 {
+  top: 0;
+  left: calc(50% - 552px);
+  width: 171px;
+  height: 145px;
+}
+.front5 {
+  position: absolute;
+  top: 27px;
+  left: calc(50% - 624px);
+  width: 1248px;
+  height: 144px;
+  overflow: hidden;
+}
+.iconhome25 {
+  position: absolute;
+  bottom: -1px;
+  left: calc(50% - 54px);
+  letter-spacing: -0.24px;
+  font-weight: 500;
+}
+.praying-hand-icon5 {
+  position: absolute;
+  height: 33.33%;
+  width: 41.69%;
+  top: 41.23%;
+  right: 29.4%;
+  bottom: 25.44%;
+  left: 28.92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.tab-bar-item25 {
+  position: absolute;
+  top: -2px;
+  left: calc(50% - 394.5px);
+  width: 166px;
+  height: 114px;
+  cursor: pointer;
+}
+.home-icon5 {
+  position: absolute;
+  top: 30px;
+  left: 51px;
+  width: 61px;
+  height: 53px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.iconhome26 {
+  position: absolute;
+  bottom: -1px;
+  left: calc(50% - 34.5px);
+  letter-spacing: -0.24px;
+  font-weight: 500;
+}
+.tab-bar-item26 {
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 222.5px);
+  width: 163px;
+  height: 114px;
+  cursor: pointer;
+}
+.iconhome27 {
+  position: absolute;
+  bottom: -1px;
+  left: calc(50% - 25px);
+  letter-spacing: -0.24px;
+  font-weight: 500;
+}
+.steering-wheel-icon5 {
+  position: absolute;
+  top: 31px;
+  left: 57px;
+  width: 51px;
+  height: 52px;
+  overflow: hidden;
+}
+.tab-bar-item27 {
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 44.5px);
+  width: 164px;
+  height: 114px;
+  cursor: pointer;
+}
+.tab-bar-item-child3 {
+  position: absolute;
+  top: 29px;
+  left: 40px;
+  border-radius: 50%;
+  background-color: var(--color-silver-100);
+  width: 86px;
+  height: 85px;
+}
+.iconhome28 {
+  position: absolute;
+  bottom: -1px;
+  left: calc(50% - 24.5px);
+  letter-spacing: -0.24px;
+  font-weight: 500;
+}
+.street-sign-crossroad-street-icon5 {
+  position: absolute;
+  top: 35px;
+  left: 44px;
+  width: 77px;
+  height: 50px;
+  overflow: hidden;
+}
+.tab-bar-item28 {
+  position: absolute;
+  top: 4px;
+  left: calc(50% + 134.5px);
+  width: 163px;
+  height: 114px;
+  cursor: pointer;
+}
+.iconhome29 {
+  position: absolute;
+  bottom: -1px;
+  left: calc(50% - 55px);
+  letter-spacing: -0.24px;
+  font-weight: 500;
+}
+.chat-bubble-oval-smiley-1-mes-icon5 {
+  position: absolute;
+  top: 32px;
+  left: 49px;
+  width: 66px;
+  height: 50px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.tab-bar-item29 {
+  position: absolute;
+  top: 4px;
+  left: calc(50% + 312.5px);
+  width: 164px;
+  height: 114px;
+  cursor: pointer;
+}
+.add-a-plan,
+.tab4 {
+  background-color: var(--color-whitesmoke);
+}
+.tab4 {
+  position: absolute;
+  bottom: 9px;
+  left: calc(50% - 647px);
+  box-shadow: 0-0.5px 0 rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  width: 1295px;
+  height: 118px;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+}
+.add-a-plan {
+  width: 100%;
+  position: relative;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
